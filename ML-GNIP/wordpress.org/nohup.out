@@ -1,0 +1,1664 @@
+wordpress post loaded in 787
+Activity Time:1069
+wordpress post loaded in 642
+Activity Time:647
+wordpress post loaded in 609
+Activity Time:614
+wordpress post loaded in 641
+Activity Time:645
+wordpress post loaded in 617
+Activity Time:620
+wordpress post loaded in 696
+Activity Time:715
+wordpress post loaded in 631
+Activity Time:632
+wordpress post loaded in 672
+Activity Time:675
+wordpress post loaded in 636
+Activity Time:639
+wordpress post loaded in 677
+Activity Time:678
+wordpress post loaded in 719
+Activity Time:723
+wordpress post loaded in 613
+Activity Time:617
+wordpress post loaded in 683
+Activity Time:686
+wordpress post loaded in 620
+Activity Time:621
+wordpress post loaded in 594
+Activity Time:596
+wordpress post loaded in 626
+Activity Time:630
+wordpress post loaded in 754
+Activity Time:757
+wordpress post loaded in 710
+Activity Time:712
+wordpress post loaded in 712
+Activity Time:716
+wordpress post loaded in 637
+Activity Time:640
+wordpress post loaded in 619
+Activity Time:621
+wordpress post loaded in 726
+Activity Time:728
+wordpress post loaded in 774
+Activity Time:776
+wordpress post loaded in 624
+Activity Time:627
+wordpress post loaded in 686
+Activity Time:687
+wordpress post loaded in 639
+Activity Time:642
+wordpress post loaded in 608
+Activity Time:611
+wordpress post loaded in 620
+Activity Time:623
+wordpress post loaded in 605
+Activity Time:623
+wordpress post loaded in 752
+Activity Time:754
+wordpress post loaded in 610
+Activity Time:613
+wordpress post loaded in 627
+Activity Time:630
+wordpress post loaded in 822
+Activity Time:825
+wordpress post loaded in 737
+Activity Time:740
+wordpress post loaded in 719
+Activity Time:721
+wordpress post loaded in 621
+Activity Time:624
+ERROR:  'Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@5dde45e2; line: 1, column: 15]'
+javax.xml.transform.TransformerException: com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@5dde45e2; line: 1, column: 15]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:716)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:313)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:106)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+Caused by: com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@5dde45e2; line: 1, column: 15]
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:120)
+	at com.marklogic.utilities.JsonXmlReader.parse(JsonXmlReader.java:114)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:636)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:707)
+	... 5 more
+Caused by: org.codehaus.jackson.JsonParseException: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@5dde45e2; line: 1, column: 15]
+	at org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:521)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:442)
+	at org.codehaus.jackson.impl.ReaderBasedParser.nextToken(ReaderBasedParser.java:453)
+	at com.marklogic.utilities.JsonSaxAdapter.parseObject(JsonSaxAdapter.java:133)
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:113)
+	... 8 more
+---------
+com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@5dde45e2; line: 1, column: 15]
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:120)
+	at com.marklogic.utilities.JsonXmlReader.parse(JsonXmlReader.java:114)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:636)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:707)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:313)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:106)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+Caused by: org.codehaus.jackson.JsonParseException: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@5dde45e2; line: 1, column: 15]
+	at org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:521)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:442)
+	at org.codehaus.jackson.impl.ReaderBasedParser.nextToken(ReaderBasedParser.java:453)
+	at com.marklogic.utilities.JsonSaxAdapter.parseObject(JsonSaxAdapter.java:133)
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:113)
+	... 8 more
+com.marklogic.xcc.exceptions.XQueryException: XDMP-DOCNOTFOUND: xdmp:document-delete("wordpressorg_37.xml") -- Document not found
+ [Session: user=admin, cb={default} [ContentSource: user=admin, cb={none} [provider: address=cpg.demo.marklogic.com/216.243.76.61:8037, pool=1/64]]]
+ [Client: XCC/5.0-2, Server: XDBC/5.0-2]
+on line 6
+expr: xdmp:document-delete("wordpressorg_37.xml")
+	at com.marklogic.xcc.impl.handlers.ServerExceptionHandler.handleResponse(ServerExceptionHandler.java:34)
+	at com.marklogic.xcc.impl.handlers.EvalRequestController.serverDialog(EvalRequestController.java:83)
+	at com.marklogic.xcc.impl.handlers.AbstractRequestController.runRequest(AbstractRequestController.java:84)
+	at com.marklogic.xcc.impl.SessionImpl.submitRequestInternal(SessionImpl.java:373)
+	at com.marklogic.xcc.impl.SessionImpl.submitRequest(SessionImpl.java:356)
+	at com.marklogic.utilities.GnipLoader.loadTweets(GnipLoader.java:118)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:110)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+wordpress post loaded in 679
+Activity Time:683
+wordpress post loaded in 690
+Activity Time:693
+wordpress post loaded in 598
+Activity Time:600
+wordpress post loaded in 612
+Activity Time:615
+wordpress post loaded in 622
+Activity Time:624
+wordpress post loaded in 618
+Activity Time:621
+wordpress post loaded in 606
+Activity Time:610
+wordpress post loaded in 615
+Activity Time:617
+wordpress post loaded in 790
+Activity Time:793
+wordpress post loaded in 790
+Activity Time:793
+wordpress post loaded in 685
+Activity Time:687
+wordpress post loaded in 614
+Activity Time:618
+wordpress post loaded in 626
+Activity Time:628
+wordpress post loaded in 648
+Activity Time:652
+wordpress post loaded in 659
+Activity Time:662
+wordpress post loaded in 638
+Activity Time:640
+wordpress post loaded in 628
+Activity Time:630
+wordpress post loaded in 639
+Activity Time:640
+wordpress post loaded in 611
+Activity Time:615
+wordpress post loaded in 610
+Activity Time:612
+wordpress post loaded in 618
+Activity Time:621
+wordpress post loaded in 634
+Activity Time:637
+wordpress post loaded in 684
+Activity Time:688
+wordpress post loaded in 803
+Activity Time:807
+wordpress post loaded in 622
+Activity Time:625
+wordpress post loaded in 1077
+Activity Time:1080
+wordpress post loaded in 595
+Activity Time:597
+wordpress post loaded in 623
+Activity Time:625
+wordpress post loaded in 598
+Activity Time:599
+wordpress post loaded in 633
+Activity Time:635
+wordpress post loaded in 625
+Activity Time:628
+wordpress post loaded in 623
+Activity Time:625
+wordpress post loaded in 630
+Activity Time:632
+wordpress post loaded in 620
+Activity Time:623
+wordpress post loaded in 667
+Activity Time:668
+wordpress post loaded in 657
+Activity Time:659
+wordpress post loaded in 726
+Activity Time:728
+wordpress post loaded in 851
+Activity Time:855
+wordpress post loaded in 907
+Activity Time:910
+wordpress post loaded in 715
+Activity Time:717
+wordpress post loaded in 669
+Activity Time:673
+wordpress post loaded in 745
+Activity Time:749
+wordpress post loaded in 684
+Activity Time:685
+wordpress post loaded in 639
+Activity Time:644
+wordpress post loaded in 1055
+Activity Time:1058
+ERROR:  'Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@78979f67; line: 1, column: 15]'
+javax.xml.transform.TransformerException: com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@78979f67; line: 1, column: 15]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:716)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:313)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:106)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+Caused by: com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@78979f67; line: 1, column: 15]
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:120)
+	at com.marklogic.utilities.JsonXmlReader.parse(JsonXmlReader.java:114)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:636)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:707)
+	... 5 more
+Caused by: org.codehaus.jackson.JsonParseException: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@78979f67; line: 1, column: 15]
+	at org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:521)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:442)
+	at org.codehaus.jackson.impl.ReaderBasedParser.nextToken(ReaderBasedParser.java:453)
+	at com.marklogic.utilities.JsonSaxAdapter.parseObject(JsonSaxAdapter.java:133)
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:113)
+	... 8 more
+---------
+com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@78979f67; line: 1, column: 15]
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:120)
+	at com.marklogic.utilities.JsonXmlReader.parse(JsonXmlReader.java:114)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:636)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:707)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:313)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:106)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+Caused by: org.codehaus.jackson.JsonParseException: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@78979f67; line: 1, column: 15]
+	at org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:521)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:442)
+	at org.codehaus.jackson.impl.ReaderBasedParser.nextToken(ReaderBasedParser.java:453)
+	at com.marklogic.utilities.JsonSaxAdapter.parseObject(JsonSaxAdapter.java:133)
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:113)
+	... 8 more
+wordpress post loaded in 746
+Activity Time:747
+com.marklogic.xcc.exceptions.XQueryException: XDMP-DOCNOTFOUND: xdmp:document-delete("wordpressorg_84.xml") -- Document not found
+ [Session: user=admin, cb={default} [ContentSource: user=admin, cb={none} [provider: address=cpg.demo.marklogic.com/216.243.76.61:8037, pool=1/64]]]
+ [Client: XCC/5.0-2, Server: XDBC/5.0-2]
+on line 6
+expr: xdmp:document-delete("wordpressorg_84.xml")
+	at com.marklogic.xcc.impl.handlers.ServerExceptionHandler.handleResponse(ServerExceptionHandler.java:34)
+	at com.marklogic.xcc.impl.handlers.EvalRequestController.serverDialog(EvalRequestController.java:83)
+	at com.marklogic.xcc.impl.handlers.AbstractRequestController.runRequest(AbstractRequestController.java:84)
+	at com.marklogic.xcc.impl.SessionImpl.submitRequestInternal(SessionImpl.java:373)
+	at com.marklogic.xcc.impl.SessionImpl.submitRequest(SessionImpl.java:356)
+	at com.marklogic.utilities.GnipLoader.loadTweets(GnipLoader.java:118)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:110)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+wordpress post loaded in 649
+Activity Time:651
+wordpress post loaded in 765
+Activity Time:768
+wordpress post loaded in 714
+Activity Time:717
+wordpress post loaded in 640
+Activity Time:643
+wordpress post loaded in 636
+Activity Time:637
+wordpress post loaded in 592
+Activity Time:595
+wordpress post loaded in 645
+Activity Time:647
+wordpress post loaded in 613
+Activity Time:615
+wordpress post loaded in 622
+Activity Time:625
+wordpress post loaded in 647
+Activity Time:649
+wordpress post loaded in 635
+Activity Time:636
+wordpress post loaded in 654
+Activity Time:657
+wordpress post loaded in 679
+Activity Time:682
+wordpress post loaded in 669
+Activity Time:671
+wordpress post loaded in 649
+Activity Time:650
+wordpress post loaded in 621
+Activity Time:624
+wordpress post loaded in 623
+Activity Time:626
+wordpress post loaded in 623
+Activity Time:625
+wordpress post loaded in 662
+Activity Time:663
+wordpress post loaded in 604
+Activity Time:607
+wordpress post loaded in 630
+Activity Time:633
+wordpress post loaded in 618
+Activity Time:619
+wordpress post loaded in 618
+Activity Time:620
+wordpress post loaded in 622
+Activity Time:625
+wordpress post loaded in 640
+Activity Time:643
+wordpress post loaded in 672
+Activity Time:676
+wordpress post loaded in 615
+Activity Time:616
+wordpress post loaded in 688
+Activity Time:690
+wordpress post loaded in 700
+Activity Time:703
+wordpress post loaded in 620
+Activity Time:622
+wordpress post loaded in 618
+Activity Time:620
+wordpress post loaded in 632
+Activity Time:635
+wordpress post loaded in 604
+Activity Time:607
+wordpress post loaded in 621
+Activity Time:623
+wordpress post loaded in 624
+Activity Time:626
+wordpress post loaded in 631
+Activity Time:634
+wordpress post loaded in 611
+Activity Time:613
+wordpress post loaded in 616
+Activity Time:617
+wordpress post loaded in 631
+Activity Time:634
+wordpress post loaded in 607
+Activity Time:609
+wordpress post loaded in 634
+Activity Time:637
+wordpress post loaded in 621
+Activity Time:623
+wordpress post loaded in 638
+Activity Time:640
+wordpress post loaded in 632
+Activity Time:634
+wordpress post loaded in 628
+Activity Time:630
+wordpress post loaded in 657
+Activity Time:659
+wordpress post loaded in 721
+Activity Time:723
+wordpress post loaded in 714
+Activity Time:716
+wordpress post loaded in 681
+Activity Time:682
+wordpress post loaded in 625
+Activity Time:627
+wordpress post loaded in 629
+Activity Time:632
+wordpress post loaded in 619
+Activity Time:621
+wordpress post loaded in 621
+Activity Time:624
+wordpress post loaded in 736
+Activity Time:737
+wordpress post loaded in 620
+Activity Time:623
+wordpress post loaded in 707
+Activity Time:708
+wordpress post loaded in 644
+Activity Time:645
+wordpress post loaded in 743
+Activity Time:745
+wordpress post loaded in 598
+Activity Time:601
+wordpress post loaded in 680
+Activity Time:684
+wordpress post loaded in 621
+Activity Time:622
+ERROR:  'Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@45c3e9ba; line: 1, column: 15]'
+javax.xml.transform.TransformerException: com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@45c3e9ba; line: 1, column: 15]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:716)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:313)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:106)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+Caused by: com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@45c3e9ba; line: 1, column: 15]
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:120)
+	at com.marklogic.utilities.JsonXmlReader.parse(JsonXmlReader.java:114)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:636)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:707)
+	... 5 more
+Caused by: org.codehaus.jackson.JsonParseException: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@45c3e9ba; line: 1, column: 15]
+	at org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:521)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:442)
+	at org.codehaus.jackson.impl.ReaderBasedParser.nextToken(ReaderBasedParser.java:453)
+	at com.marklogic.utilities.JsonSaxAdapter.parseObject(JsonSaxAdapter.java:133)
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:113)
+	... 8 more
+---------
+com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@45c3e9ba; line: 1, column: 15]
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:120)
+	at com.marklogic.utilities.JsonXmlReader.parse(JsonXmlReader.java:114)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:636)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:707)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:313)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:106)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+Caused by: org.codehaus.jackson.JsonParseException: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@45c3e9ba; line: 1, column: 15]
+	at org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:521)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:442)
+	at org.codehaus.jackson.impl.ReaderBasedParser.nextToken(ReaderBasedParser.java:453)
+	at com.marklogic.utilities.JsonSaxAdapter.parseObject(JsonSaxAdapter.java:133)
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:113)
+	... 8 more
+wordpress post loaded in 883
+Activity Time:887
+wordpress post loaded in 650
+Activity Time:652
+com.marklogic.xcc.exceptions.XQueryException: XDMP-DOCNOTFOUND: xdmp:document-delete("wordpressorg_148.xml") -- Document not found
+ [Session: user=admin, cb={default} [ContentSource: user=admin, cb={none} [provider: address=cpg.demo.marklogic.com/216.243.76.61:8037, pool=1/64]]]
+ [Client: XCC/5.0-2, Server: XDBC/5.0-2]
+on line 6
+expr: xdmp:document-delete("wordpressorg_148.xml")
+	at com.marklogic.xcc.impl.handlers.ServerExceptionHandler.handleResponse(ServerExceptionHandler.java:34)
+	at com.marklogic.xcc.impl.handlers.EvalRequestController.serverDialog(EvalRequestController.java:83)
+	at com.marklogic.xcc.impl.handlers.AbstractRequestController.runRequest(AbstractRequestController.java:84)
+	at com.marklogic.xcc.impl.SessionImpl.submitRequestInternal(SessionImpl.java:373)
+	at com.marklogic.xcc.impl.SessionImpl.submitRequest(SessionImpl.java:356)
+	at com.marklogic.utilities.GnipLoader.loadTweets(GnipLoader.java:118)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:110)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+wordpress post loaded in 631
+Activity Time:633
+wordpress post loaded in 635
+Activity Time:637
+wordpress post loaded in 606
+Activity Time:608
+wordpress post loaded in 602
+Activity Time:603
+wordpress post loaded in 610
+Activity Time:614
+wordpress post loaded in 618
+Activity Time:620
+wordpress post loaded in 613
+Activity Time:615
+wordpress post loaded in 711
+Activity Time:715
+wordpress post loaded in 634
+Activity Time:635
+wordpress post loaded in 617
+Activity Time:619
+wordpress post loaded in 738
+Activity Time:741
+wordpress post loaded in 671
+Activity Time:672
+wordpress post loaded in 621
+Activity Time:624
+wordpress post loaded in 640
+Activity Time:641
+wordpress post loaded in 690
+Activity Time:695
+wordpress post loaded in 619
+Activity Time:620
+wordpress post loaded in 633
+Activity Time:635
+wordpress post loaded in 725
+Activity Time:727
+wordpress post loaded in 628
+Activity Time:631
+wordpress post loaded in 667
+Activity Time:670
+wordpress post loaded in 638
+Activity Time:641
+ERROR:  'Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@5a57e787; line: 1, column: 15]'
+javax.xml.transform.TransformerException: com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@5a57e787; line: 1, column: 15]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:716)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:313)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:106)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+Caused by: com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@5a57e787; line: 1, column: 15]
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:120)
+	at com.marklogic.utilities.JsonXmlReader.parse(JsonXmlReader.java:114)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:636)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:707)
+	... 5 more
+Caused by: org.codehaus.jackson.JsonParseException: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@5a57e787; line: 1, column: 15]
+	at org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:521)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:442)
+	at org.codehaus.jackson.impl.ReaderBasedParser.nextToken(ReaderBasedParser.java:453)
+	at com.marklogic.utilities.JsonSaxAdapter.parseObject(JsonSaxAdapter.java:133)
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:113)
+	... 8 more
+---------
+com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@5a57e787; line: 1, column: 15]
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:120)
+	at com.marklogic.utilities.JsonXmlReader.parse(JsonXmlReader.java:114)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:636)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:707)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:313)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:106)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+Caused by: org.codehaus.jackson.JsonParseException: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@5a57e787; line: 1, column: 15]
+	at org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:521)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:442)
+	at org.codehaus.jackson.impl.ReaderBasedParser.nextToken(ReaderBasedParser.java:453)
+	at com.marklogic.utilities.JsonSaxAdapter.parseObject(JsonSaxAdapter.java:133)
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:113)
+	... 8 more
+wordpress post loaded in 845
+Activity Time:847
+wordpress post loaded in 630
+Activity Time:631
+wordpress post loaded in 640
+Activity Time:643
+com.marklogic.xcc.exceptions.XQueryException: XDMP-DOCNOTFOUND: xdmp:document-delete("wordpressorg_173.xml") -- Document not found
+ [Session: user=admin, cb={default} [ContentSource: user=admin, cb={none} [provider: address=cpg.demo.marklogic.com/216.243.76.61:8037, pool=1/64]]]
+ [Client: XCC/5.0-2, Server: XDBC/5.0-2]
+on line 6
+expr: xdmp:document-delete("wordpressorg_173.xml")
+	at com.marklogic.xcc.impl.handlers.ServerExceptionHandler.handleResponse(ServerExceptionHandler.java:34)
+	at com.marklogic.xcc.impl.handlers.EvalRequestController.serverDialog(EvalRequestController.java:83)
+	at com.marklogic.xcc.impl.handlers.AbstractRequestController.runRequest(AbstractRequestController.java:84)
+	at com.marklogic.xcc.impl.SessionImpl.submitRequestInternal(SessionImpl.java:373)
+	at com.marklogic.xcc.impl.SessionImpl.submitRequest(SessionImpl.java:356)
+	at com.marklogic.utilities.GnipLoader.loadTweets(GnipLoader.java:118)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:110)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+wordpress post loaded in 729
+Activity Time:730
+wordpress post loaded in 610
+Activity Time:613
+wordpress post loaded in 718
+Activity Time:719
+wordpress post loaded in 697
+Activity Time:699
+wordpress post loaded in 741
+Activity Time:744
+wordpress post loaded in 690
+Activity Time:691
+wordpress post loaded in 693
+Activity Time:697
+wordpress post loaded in 601
+Activity Time:602
+wordpress post loaded in 713
+Activity Time:715
+wordpress post loaded in 613
+Activity Time:615
+wordpress post loaded in 718
+Activity Time:721
+wordpress post loaded in 679
+Activity Time:682
+wordpress post loaded in 670
+Activity Time:672
+wordpress post loaded in 595
+Activity Time:598
+wordpress post loaded in 598
+Activity Time:600
+wordpress post loaded in 614
+Activity Time:615
+wordpress post loaded in 607
+Activity Time:610
+wordpress post loaded in 615
+Activity Time:617
+wordpress post loaded in 600
+Activity Time:602
+wordpress post loaded in 631
+Activity Time:632
+wordpress post loaded in 693
+Activity Time:696
+wordpress post loaded in 847
+Activity Time:849
+wordpress post loaded in 688
+Activity Time:690
+wordpress post loaded in 660
+Activity Time:662
+wordpress post loaded in 647
+Activity Time:715
+wordpress post loaded in 633
+Activity Time:636
+wordpress post loaded in 665
+Activity Time:667
+wordpress post loaded in 716
+Activity Time:718
+wordpress post loaded in 611
+Activity Time:613
+wordpress post loaded in 660
+Activity Time:662
+wordpress post loaded in 651
+Activity Time:653
+wordpress post loaded in 627
+Activity Time:629
+wordpress post loaded in 605
+Activity Time:607
+wordpress post loaded in 761
+Activity Time:764
+wordpress post loaded in 748
+Activity Time:749
+wordpress post loaded in 666
+Activity Time:668
+wordpress post loaded in 685
+Activity Time:689
+wordpress post loaded in 654
+Activity Time:664
+wordpress post loaded in 623
+Activity Time:625
+wordpress post loaded in 617
+Activity Time:639
+wordpress post loaded in 734
+Activity Time:737
+wordpress post loaded in 650
+Activity Time:652
+wordpress post loaded in 599
+Activity Time:609
+wordpress post loaded in 661
+Activity Time:757
+wordpress post loaded in 752
+Activity Time:755
+wordpress post loaded in 707
+Activity Time:725
+wordpress post loaded in 675
+Activity Time:752
+wordpress post loaded in 715
+Activity Time:767
+wordpress post loaded in 777
+Activity Time:779
+wordpress post loaded in 688
+Activity Time:689
+wordpress post loaded in 688
+Activity Time:691
+wordpress post loaded in 1153
+Activity Time:1155
+wordpress post loaded in 669
+Activity Time:670
+wordpress post loaded in 710
+Activity Time:713
+wordpress post loaded in 738
+Activity Time:739
+wordpress post loaded in 630
+Activity Time:632
+wordpress post loaded in 610
+Activity Time:614
+wordpress post loaded in 643
+Activity Time:645
+wordpress post loaded in 663
+Activity Time:665
+wordpress post loaded in 613
+Activity Time:615
+wordpress post loaded in 603
+Activity Time:604
+wordpress post loaded in 602
+Activity Time:603
+wordpress post loaded in 593
+Activity Time:595
+wordpress post loaded in 618
+Activity Time:621
+wordpress post loaded in 613
+Activity Time:615
+wordpress post loaded in 624
+Activity Time:627
+wordpress post loaded in 614
+Activity Time:617
+wordpress post loaded in 623
+Activity Time:625
+wordpress post loaded in 604
+Activity Time:605
+wordpress post loaded in 656
+Activity Time:657
+wordpress post loaded in 646
+Activity Time:648
+wordpress post loaded in 606
+Activity Time:608
+wordpress post loaded in 613
+Activity Time:777
+wordpress post loaded in 688
+Activity Time:770
+wordpress post loaded in 808
+Activity Time:813
+wordpress post loaded in 615
+Activity Time:617
+wordpress post loaded in 807
+Activity Time:810
+wordpress post loaded in 634
+Activity Time:635
+wordpress post loaded in 670
+Activity Time:671
+wordpress post loaded in 669
+Activity Time:672
+wordpress post loaded in 709
+Activity Time:712
+wordpress post loaded in 611
+Activity Time:613
+wordpress post loaded in 641
+Activity Time:643
+wordpress post loaded in 660
+Activity Time:662
+wordpress post loaded in 683
+Activity Time:685
+wordpress post loaded in 635
+Activity Time:636
+wordpress post loaded in 651
+Activity Time:653
+wordpress post loaded in 648
+Activity Time:650
+wordpress post loaded in 697
+Activity Time:698
+wordpress post loaded in 660
+Activity Time:662
+wordpress post loaded in 672
+Activity Time:674
+wordpress post loaded in 663
+Activity Time:666
+wordpress post loaded in 615
+Activity Time:617
+wordpress post loaded in 631
+Activity Time:633
+wordpress post loaded in 633
+Activity Time:635
+wordpress post loaded in 659
+Activity Time:660
+wordpress post loaded in 623
+Activity Time:625
+wordpress post loaded in 639
+Activity Time:640
+wordpress post loaded in 668
+Activity Time:671
+wordpress post loaded in 627
+Activity Time:629
+wordpress post loaded in 1139
+Activity Time:1140
+wordpress post loaded in 616
+Activity Time:617
+wordpress post loaded in 686
+Activity Time:688
+wordpress post loaded in 659
+Activity Time:660
+wordpress post loaded in 763
+Activity Time:765
+wordpress post loaded in 624
+Activity Time:625
+ERROR:  'Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@5759780d; line: 1, column: 15]'
+javax.xml.transform.TransformerException: com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@5759780d; line: 1, column: 15]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:716)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:313)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:106)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+Caused by: com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@5759780d; line: 1, column: 15]
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:120)
+	at com.marklogic.utilities.JsonXmlReader.parse(JsonXmlReader.java:114)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:636)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:707)
+	... 5 more
+Caused by: org.codehaus.jackson.JsonParseException: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@5759780d; line: 1, column: 15]
+	at org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:521)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:442)
+	at org.codehaus.jackson.impl.ReaderBasedParser.nextToken(ReaderBasedParser.java:453)
+	at com.marklogic.utilities.JsonSaxAdapter.parseObject(JsonSaxAdapter.java:133)
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:113)
+	... 8 more
+---------
+com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@5759780d; line: 1, column: 15]
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:120)
+	at com.marklogic.utilities.JsonXmlReader.parse(JsonXmlReader.java:114)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:636)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:707)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:313)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:106)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+Caused by: org.codehaus.jackson.JsonParseException: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@5759780d; line: 1, column: 15]
+	at org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:521)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:442)
+	at org.codehaus.jackson.impl.ReaderBasedParser.nextToken(ReaderBasedParser.java:453)
+	at com.marklogic.utilities.JsonSaxAdapter.parseObject(JsonSaxAdapter.java:133)
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:113)
+	... 8 more
+wordpress post loaded in 697
+Activity Time:700
+wordpress post loaded in 726
+Activity Time:727
+wordpress post loaded in 635
+Activity Time:636
+wordpress post loaded in 785
+Activity Time:788
+com.marklogic.xcc.exceptions.XQueryException: XDMP-DOCNOTFOUND: xdmp:document-delete("wordpressorg_284.xml") -- Document not found
+ [Session: user=admin, cb={default} [ContentSource: user=admin, cb={none} [provider: address=cpg.demo.marklogic.com/216.243.76.61:8037, pool=1/64]]]
+ [Client: XCC/5.0-2, Server: XDBC/5.0-2]
+on line 6
+expr: xdmp:document-delete("wordpressorg_284.xml")
+	at com.marklogic.xcc.impl.handlers.ServerExceptionHandler.handleResponse(ServerExceptionHandler.java:34)
+	at com.marklogic.xcc.impl.handlers.EvalRequestController.serverDialog(EvalRequestController.java:83)
+	at com.marklogic.xcc.impl.handlers.AbstractRequestController.runRequest(AbstractRequestController.java:84)
+	at com.marklogic.xcc.impl.SessionImpl.submitRequestInternal(SessionImpl.java:373)
+	at com.marklogic.xcc.impl.SessionImpl.submitRequest(SessionImpl.java:356)
+	at com.marklogic.utilities.GnipLoader.loadTweets(GnipLoader.java:118)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:110)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+wordpress post loaded in 697
+Activity Time:699
+wordpress post loaded in 651
+Activity Time:653
+wordpress post loaded in 627
+Activity Time:628
+wordpress post loaded in 685
+Activity Time:688
+wordpress post loaded in 625
+Activity Time:627
+wordpress post loaded in 598
+Activity Time:600
+wordpress post loaded in 632
+Activity Time:633
+wordpress post loaded in 608
+Activity Time:610
+wordpress post loaded in 673
+Activity Time:674
+wordpress post loaded in 665
+Activity Time:668
+wordpress post loaded in 735
+Activity Time:738
+wordpress post loaded in 660
+Activity Time:662
+wordpress post loaded in 606
+Activity Time:608
+wordpress post loaded in 641
+Activity Time:642
+wordpress post loaded in 637
+Activity Time:638
+wordpress post loaded in 636
+Activity Time:637
+wordpress post loaded in 721
+Activity Time:724
+wordpress post loaded in 654
+Activity Time:656
+wordpress post loaded in 646
+Activity Time:648
+wordpress post loaded in 681
+Activity Time:683
+wordpress post loaded in 600
+Activity Time:602
+wordpress post loaded in 750
+Activity Time:753
+wordpress post loaded in 643
+Activity Time:644
+wordpress post loaded in 608
+Activity Time:609
+wordpress post loaded in 613
+Activity Time:615
+wordpress post loaded in 594
+Activity Time:600
+wordpress post loaded in 660
+Activity Time:673
+wordpress post loaded in 616
+Activity Time:617
+wordpress post loaded in 635
+Activity Time:637
+wordpress post loaded in 724
+Activity Time:727
+wordpress post loaded in 664
+Activity Time:666
+wordpress post loaded in 634
+Activity Time:636
+wordpress post loaded in 692
+Activity Time:694
+wordpress post loaded in 680
+Activity Time:683
+wordpress post loaded in 648
+Activity Time:651
+wordpress post loaded in 750
+Activity Time:751
+wordpress post loaded in 629
+Activity Time:631
+wordpress post loaded in 620
+Activity Time:622
+wordpress post loaded in 631
+Activity Time:632
+wordpress post loaded in 594
+Activity Time:596
+wordpress post loaded in 621
+Activity Time:622
+wordpress post loaded in 609
+Activity Time:611
+wordpress post loaded in 637
+Activity Time:640
+wordpress post loaded in 590
+Activity Time:591
+wordpress post loaded in 874
+Activity Time:875
+wordpress post loaded in 616
+Activity Time:619
+wordpress post loaded in 670
+Activity Time:671
+wordpress post loaded in 684
+Activity Time:686
+wordpress post loaded in 677
+Activity Time:680
+wordpress post loaded in 817
+Activity Time:818
+wordpress post loaded in 668
+Activity Time:669
+wordpress post loaded in 671
+Activity Time:672
+wordpress post loaded in 654
+Activity Time:655
+wordpress post loaded in 683
+Activity Time:685
+wordpress post loaded in 637
+Activity Time:639
+wordpress post loaded in 772
+Activity Time:774
+wordpress post loaded in 666
+Activity Time:667
+wordpress post loaded in 718
+Activity Time:721
+wordpress post loaded in 654
+Activity Time:655
+wordpress post loaded in 695
+Activity Time:698
+wordpress post loaded in 700
+Activity Time:701
+wordpress post loaded in 629
+Activity Time:630
+ERROR:  'Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@56ad2c30; line: 1, column: 15]'
+javax.xml.transform.TransformerException: com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@56ad2c30; line: 1, column: 15]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:716)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:313)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:106)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+Caused by: com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@56ad2c30; line: 1, column: 15]
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:120)
+	at com.marklogic.utilities.JsonXmlReader.parse(JsonXmlReader.java:114)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:636)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:707)
+	... 5 more
+Caused by: org.codehaus.jackson.JsonParseException: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@56ad2c30; line: 1, column: 15]
+	at org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:521)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:442)
+	at org.codehaus.jackson.impl.ReaderBasedParser.nextToken(ReaderBasedParser.java:453)
+	at com.marklogic.utilities.JsonSaxAdapter.parseObject(JsonSaxAdapter.java:133)
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:113)
+	... 8 more
+---------
+com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@56ad2c30; line: 1, column: 15]
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:120)
+	at com.marklogic.utilities.JsonXmlReader.parse(JsonXmlReader.java:114)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:636)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:707)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:313)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:106)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+Caused by: org.codehaus.jackson.JsonParseException: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@56ad2c30; line: 1, column: 15]
+	at org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:521)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:442)
+	at org.codehaus.jackson.impl.ReaderBasedParser.nextToken(ReaderBasedParser.java:453)
+	at com.marklogic.utilities.JsonSaxAdapter.parseObject(JsonSaxAdapter.java:133)
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:113)
+	... 8 more
+wordpress post loaded in 653
+Activity Time:656
+wordpress post loaded in 781
+Activity Time:783
+wordpress post loaded in 743
+Activity Time:745
+wordpress post loaded in 650
+Activity Time:652
+wordpress post loaded in 610
+Activity Time:613
+com.marklogic.xcc.exceptions.XQueryException: XDMP-DOCNOTFOUND: xdmp:document-delete("wordpressorg_352.xml") -- Document not found
+ [Session: user=admin, cb={default} [ContentSource: user=admin, cb={none} [provider: address=cpg.demo.marklogic.com/216.243.76.61:8037, pool=1/64]]]
+ [Client: XCC/5.0-2, Server: XDBC/5.0-2]
+on line 6
+expr: xdmp:document-delete("wordpressorg_352.xml")
+	at com.marklogic.xcc.impl.handlers.ServerExceptionHandler.handleResponse(ServerExceptionHandler.java:34)
+	at com.marklogic.xcc.impl.handlers.EvalRequestController.serverDialog(EvalRequestController.java:83)
+	at com.marklogic.xcc.impl.handlers.AbstractRequestController.runRequest(AbstractRequestController.java:84)
+	at com.marklogic.xcc.impl.SessionImpl.submitRequestInternal(SessionImpl.java:373)
+	at com.marklogic.xcc.impl.SessionImpl.submitRequest(SessionImpl.java:356)
+	at com.marklogic.utilities.GnipLoader.loadTweets(GnipLoader.java:118)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:110)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+wordpress post loaded in 625
+Activity Time:627
+wordpress post loaded in 633
+Activity Time:635
+wordpress post loaded in 643
+Activity Time:645
+wordpress post loaded in 675
+Activity Time:676
+wordpress post loaded in 658
+Activity Time:660
+wordpress post loaded in 601
+Activity Time:602
+wordpress post loaded in 648
+Activity Time:651
+wordpress post loaded in 650
+Activity Time:652
+wordpress post loaded in 617
+Activity Time:620
+wordpress post loaded in 681
+Activity Time:682
+wordpress post loaded in 689
+Activity Time:693
+wordpress post loaded in 604
+Activity Time:605
+wordpress post loaded in 593
+Activity Time:595
+wordpress post loaded in 901
+Activity Time:903
+wordpress post loaded in 635
+Activity Time:637
+wordpress post loaded in 778
+Activity Time:780
+wordpress post loaded in 701
+Activity Time:703
+wordpress post loaded in 685
+Activity Time:687
+wordpress post loaded in 674
+Activity Time:675
+wordpress post loaded in 765
+Activity Time:768
+wordpress post loaded in 624
+Activity Time:627
+wordpress post loaded in 662
+Activity Time:665
+wordpress post loaded in 631
+Activity Time:633
+wordpress post loaded in 644
+Activity Time:645
+wordpress post loaded in 708
+Activity Time:710
+wordpress post loaded in 635
+Activity Time:636
+wordpress post loaded in 666
+Activity Time:668
+wordpress post loaded in 639
+Activity Time:640
+wordpress post loaded in 684
+Activity Time:686
+wordpress post loaded in 628
+Activity Time:630
+wordpress post loaded in 634
+Activity Time:635
+wordpress post loaded in 674
+Activity Time:677
+wordpress post loaded in 643
+Activity Time:645
+wordpress post loaded in 644
+Activity Time:645
+wordpress post loaded in 658
+Activity Time:661
+wordpress post loaded in 645
+Activity Time:647
+wordpress post loaded in 671
+Activity Time:672
+wordpress post loaded in 695
+Activity Time:697
+wordpress post loaded in 648
+Activity Time:649
+wordpress post loaded in 706
+Activity Time:709
+ERROR:  'Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@31e46a68; line: 1, column: 15]'
+javax.xml.transform.TransformerException: com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@31e46a68; line: 1, column: 15]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:716)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:313)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:106)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+Caused by: com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@31e46a68; line: 1, column: 15]
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:120)
+	at com.marklogic.utilities.JsonXmlReader.parse(JsonXmlReader.java:114)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:636)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:707)
+	... 5 more
+Caused by: org.codehaus.jackson.JsonParseException: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@31e46a68; line: 1, column: 15]
+	at org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:521)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:442)
+	at org.codehaus.jackson.impl.ReaderBasedParser.nextToken(ReaderBasedParser.java:453)
+	at com.marklogic.utilities.JsonSaxAdapter.parseObject(JsonSaxAdapter.java:133)
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:113)
+	... 8 more
+---------
+com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@31e46a68; line: 1, column: 15]
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:120)
+	at com.marklogic.utilities.JsonXmlReader.parse(JsonXmlReader.java:114)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:636)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:707)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:313)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:106)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+Caused by: org.codehaus.jackson.JsonParseException: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@31e46a68; line: 1, column: 15]
+	at org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:521)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:442)
+	at org.codehaus.jackson.impl.ReaderBasedParser.nextToken(ReaderBasedParser.java:453)
+	at com.marklogic.utilities.JsonSaxAdapter.parseObject(JsonSaxAdapter.java:133)
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:113)
+	... 8 more
+wordpress post loaded in 647
+Activity Time:649
+wordpress post loaded in 652
+Activity Time:654
+wordpress post loaded in 647
+Activity Time:651
+wordpress post loaded in 631
+Activity Time:632
+wordpress post loaded in 610
+Activity Time:613
+wordpress post loaded in 664
+Activity Time:666
+com.marklogic.xcc.exceptions.XQueryException: XDMP-DOCNOTFOUND: xdmp:document-delete("wordpressorg_399.xml") -- Document not found
+ [Session: user=admin, cb={default} [ContentSource: user=admin, cb={none} [provider: address=cpg.demo.marklogic.com/216.243.76.61:8037, pool=1/64]]]
+ [Client: XCC/5.0-2, Server: XDBC/5.0-2]
+on line 6
+expr: xdmp:document-delete("wordpressorg_399.xml")
+	at com.marklogic.xcc.impl.handlers.ServerExceptionHandler.handleResponse(ServerExceptionHandler.java:34)
+	at com.marklogic.xcc.impl.handlers.EvalRequestController.serverDialog(EvalRequestController.java:83)
+	at com.marklogic.xcc.impl.handlers.AbstractRequestController.runRequest(AbstractRequestController.java:84)
+	at com.marklogic.xcc.impl.SessionImpl.submitRequestInternal(SessionImpl.java:373)
+	at com.marklogic.xcc.impl.SessionImpl.submitRequest(SessionImpl.java:356)
+	at com.marklogic.utilities.GnipLoader.loadTweets(GnipLoader.java:118)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:110)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+wordpress post loaded in 706
+Activity Time:709
+wordpress post loaded in 774
+Activity Time:776
+wordpress post loaded in 649
+Activity Time:651
+wordpress post loaded in 621
+Activity Time:622
+wordpress post loaded in 627
+Activity Time:630
+wordpress post loaded in 674
+Activity Time:676
+wordpress post loaded in 672
+Activity Time:674
+wordpress post loaded in 633
+Activity Time:635
+wordpress post loaded in 670
+Activity Time:673
+wordpress post loaded in 774
+Activity Time:776
+wordpress post loaded in 641
+Activity Time:644
+wordpress post loaded in 628
+Activity Time:630
+wordpress post loaded in 668
+Activity Time:670
+wordpress post loaded in 624
+Activity Time:625
+wordpress post loaded in 623
+Activity Time:624
+wordpress post loaded in 629
+Activity Time:631
+wordpress post loaded in 647
+Activity Time:649
+wordpress post loaded in 619
+Activity Time:621
+wordpress post loaded in 616
+Activity Time:617
+wordpress post loaded in 592
+Activity Time:595
+wordpress post loaded in 642
+Activity Time:644
+wordpress post loaded in 613
+Activity Time:614
+wordpress post loaded in 625
+Activity Time:627
+wordpress post loaded in 629
+Activity Time:630
+wordpress post loaded in 644
+Activity Time:645
+wordpress post loaded in 620
+Activity Time:622
+wordpress post loaded in 743
+Activity Time:745
+wordpress post loaded in 709
+Activity Time:711
+wordpress post loaded in 622
+Activity Time:624
+wordpress post loaded in 680
+Activity Time:681
+wordpress post loaded in 625
+Activity Time:627
+wordpress post loaded in 659
+Activity Time:661
+wordpress post loaded in 628
+Activity Time:629
+wordpress post loaded in 637
+Activity Time:638
+wordpress post loaded in 648
+Activity Time:649
+wordpress post loaded in 646
+Activity Time:649
+wordpress post loaded in 688
+Activity Time:690
+wordpress post loaded in 626
+Activity Time:628
+wordpress post loaded in 635
+Activity Time:637
+wordpress post loaded in 677
+Activity Time:679
+wordpress post loaded in 629
+Activity Time:631
+wordpress post loaded in 738
+Activity Time:739
+wordpress post loaded in 647
+Activity Time:648
+wordpress post loaded in 635
+Activity Time:637
+wordpress post loaded in 810
+Activity Time:812
+wordpress post loaded in 698
+Activity Time:699
+wordpress post loaded in 647
+Activity Time:649
+wordpress post loaded in 693
+Activity Time:695
+wordpress post loaded in 645
+Activity Time:647
+wordpress post loaded in 651
+Activity Time:653
+wordpress post loaded in 675
+Activity Time:677
+wordpress post loaded in 634
+Activity Time:637
+wordpress post loaded in 631
+Activity Time:633
+wordpress post loaded in 624
+Activity Time:625
+wordpress post loaded in 622
+Activity Time:625
+wordpress post loaded in 1164
+Activity Time:1166
+wordpress post loaded in 695
+Activity Time:697
+wordpress post loaded in 622
+Activity Time:625
+wordpress post loaded in 752
+Activity Time:753
+wordpress post loaded in 623
+Activity Time:625
+wordpress post loaded in 638
+Activity Time:640
+wordpress post loaded in 638
+Activity Time:641
+wordpress post loaded in 614
+Activity Time:616
+wordpress post loaded in 676
+Activity Time:677
+wordpress post loaded in 652
+Activity Time:653
+wordpress post loaded in 677
+Activity Time:679
+wordpress post loaded in 934
+Activity Time:935
+wordpress post loaded in 621
+Activity Time:623
+wordpress post loaded in 673
+Activity Time:676
+wordpress post loaded in 653
+Activity Time:654
+wordpress post loaded in 1049
+Activity Time:1060
+wordpress post loaded in 631
+Activity Time:632
+wordpress post loaded in 673
+Activity Time:676
+wordpress post loaded in 661
+Activity Time:663
+wordpress post loaded in 611
+Activity Time:612
+wordpress post loaded in 658
+Activity Time:660
+wordpress post loaded in 663
+Activity Time:664
+wordpress post loaded in 1253
+Activity Time:1256
+wordpress post loaded in 630
+Activity Time:632
+wordpress post loaded in 640
+Activity Time:642
+wordpress post loaded in 649
+Activity Time:650
+wordpress post loaded in 617
+Activity Time:620
+wordpress post loaded in 659
+Activity Time:661
+wordpress post loaded in 646
+Activity Time:648
+wordpress post loaded in 766
+Activity Time:768
+wordpress post loaded in 681
+Activity Time:682
+wordpress post loaded in 639
+Activity Time:641
+wordpress post loaded in 688
+Activity Time:691
+wordpress post loaded in 644
+Activity Time:645
+wordpress post loaded in 624
+Activity Time:625
+wordpress post loaded in 658
+Activity Time:660
+wordpress post loaded in 663
+Activity Time:665
+wordpress post loaded in 623
+Activity Time:624
+wordpress post loaded in 626
+Activity Time:628
+wordpress post loaded in 698
+Activity Time:700
+wordpress post loaded in 649
+Activity Time:651
+wordpress post loaded in 695
+Activity Time:697
+wordpress post loaded in 659
+Activity Time:663
+wordpress post loaded in 631
+Activity Time:632
+wordpress post loaded in 630
+Activity Time:633
+wordpress post loaded in 625
+Activity Time:627
+wordpress post loaded in 653
+Activity Time:654
+wordpress post loaded in 646
+Activity Time:648
+wordpress post loaded in 686
+Activity Time:687
+wordpress post loaded in 656
+Activity Time:658
+wordpress post loaded in 650
+Activity Time:652
+wordpress post loaded in 645
+Activity Time:648
+wordpress post loaded in 644
+Activity Time:646
+wordpress post loaded in 616
+Activity Time:619
+wordpress post loaded in 630
+Activity Time:631
+wordpress post loaded in 930
+Activity Time:932
+wordpress post loaded in 656
+Activity Time:657
+wordpress post loaded in 652
+Activity Time:655
+wordpress post loaded in 688
+Activity Time:690
+wordpress post loaded in 926
+Activity Time:928
+wordpress post loaded in 633
+Activity Time:634
+wordpress post loaded in 613
+Activity Time:615
+wordpress post loaded in 648
+Activity Time:650
+wordpress post loaded in 628
+Activity Time:630
+wordpress post loaded in 626
+Activity Time:628
+wordpress post loaded in 697
+Activity Time:698
+wordpress post loaded in 612
+Activity Time:614
+wordpress post loaded in 816
+Activity Time:819
+wordpress post loaded in 613
+Activity Time:614
+wordpress post loaded in 957
+Activity Time:960
+wordpress post loaded in 644
+Activity Time:645
+wordpress post loaded in 629
+Activity Time:631
+wordpress post loaded in 698
+Activity Time:700
+wordpress post loaded in 667
+Activity Time:669
+wordpress post loaded in 708
+Activity Time:709
+ERROR:  'Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@7f6877f8; line: 1, column: 15]'
+javax.xml.transform.TransformerException: com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@7f6877f8; line: 1, column: 15]
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:716)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:313)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:106)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+Caused by: com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@7f6877f8; line: 1, column: 15]
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:120)
+	at com.marklogic.utilities.JsonXmlReader.parse(JsonXmlReader.java:114)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:636)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:707)
+	... 5 more
+Caused by: org.codehaus.jackson.JsonParseException: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@7f6877f8; line: 1, column: 15]
+	at org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:521)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:442)
+	at org.codehaus.jackson.impl.ReaderBasedParser.nextToken(ReaderBasedParser.java:453)
+	at com.marklogic.utilities.JsonSaxAdapter.parseObject(JsonSaxAdapter.java:133)
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:113)
+	... 8 more
+---------
+com.marklogic.utilities.JsonSaxAdapter$ParserException: Parsing error: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@7f6877f8; line: 1, column: 15]
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:120)
+	at com.marklogic.utilities.JsonXmlReader.parse(JsonXmlReader.java:114)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:636)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:707)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:313)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:106)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+Caused by: org.codehaus.jackson.JsonParseException: Unexpected character ('}' (code 125)): expected a value
+ at [Source: java.io.StringReader@7f6877f8; line: 1, column: 15]
+	at org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:521)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:442)
+	at org.codehaus.jackson.impl.ReaderBasedParser.nextToken(ReaderBasedParser.java:453)
+	at com.marklogic.utilities.JsonSaxAdapter.parseObject(JsonSaxAdapter.java:133)
+	at com.marklogic.utilities.JsonSaxAdapter.parse(JsonSaxAdapter.java:113)
+	... 8 more
+wordpress post loaded in 598
+Activity Time:599
+wordpress post loaded in 640
+Activity Time:642
+wordpress post loaded in 616
+Activity Time:617
+wordpress post loaded in 646
+Activity Time:649
+wordpress post loaded in 691
+Activity Time:692
+wordpress post loaded in 661
+Activity Time:663
+wordpress post loaded in 630
+Activity Time:633
+com.marklogic.xcc.exceptions.XQueryException: XDMP-DOCNOTFOUND: xdmp:document-delete("wordpressorg_537.xml") -- Document not found
+ [Session: user=admin, cb={default} [ContentSource: user=admin, cb={none} [provider: address=cpg.demo.marklogic.com/216.243.76.61:8037, pool=1/64]]]
+ [Client: XCC/5.0-2, Server: XDBC/5.0-2]
+on line 6
+expr: xdmp:document-delete("wordpressorg_537.xml")
+	at com.marklogic.xcc.impl.handlers.ServerExceptionHandler.handleResponse(ServerExceptionHandler.java:34)
+	at com.marklogic.xcc.impl.handlers.EvalRequestController.serverDialog(EvalRequestController.java:83)
+	at com.marklogic.xcc.impl.handlers.AbstractRequestController.runRequest(AbstractRequestController.java:84)
+	at com.marklogic.xcc.impl.SessionImpl.submitRequestInternal(SessionImpl.java:373)
+	at com.marklogic.xcc.impl.SessionImpl.submitRequest(SessionImpl.java:356)
+	at com.marklogic.utilities.GnipLoader.loadTweets(GnipLoader.java:118)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:110)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:96)
+	at com.marklogic.gnip.stream.TrackConsumer.convertToXml(TrackConsumer.java:92)
+	at com.marklogic.gnip.stream.TrackConsumer.main(TrackConsumer.java:67)
+wordpress post loaded in 646
+Activity Time:649
+wordpress post loaded in 722
+Activity Time:725
+wordpress post loaded in 642
+Activity Time:643
+wordpress post loaded in 766
+Activity Time:767
+wordpress post loaded in 674
+Activity Time:678
+wordpress post loaded in 643
+Activity Time:645
+wordpress post loaded in 646
+Activity Time:647
+wordpress post loaded in 760
+Activity Time:763
+wordpress post loaded in 778
+Activity Time:780
+wordpress post loaded in 671
+Activity Time:672
+wordpress post loaded in 663
+Activity Time:665
+wordpress post loaded in 614
+Activity Time:615
+wordpress post loaded in 627
+Activity Time:630
+wordpress post loaded in 648
+Activity Time:650
+wordpress post loaded in 643
+Activity Time:646
+wordpress post loaded in 797
+Activity Time:799
+wordpress post loaded in 652
+Activity Time:656
+wordpress post loaded in 663
+Activity Time:665
+wordpress post loaded in 682
+Activity Time:685
+wordpress post loaded in 590
+Activity Time:591
+wordpress post loaded in 641
+Activity Time:643
+wordpress post loaded in 726
+Activity Time:728
+wordpress post loaded in 757
+Activity Time:760
+wordpress post loaded in 1043
+Activity Time:1045
+wordpress post loaded in 673
+Activity Time:674
+wordpress post loaded in 655
+Activity Time:656
+wordpress post loaded in 703
+Activity Time:705
+wordpress post loaded in 642
+Activity Time:645
+wordpress post loaded in 729
+Activity Time:730
+wordpress post loaded in 695
+Activity Time:697
+wordpress post loaded in 622
+Activity Time:623
+wordpress post loaded in 719
+Activity Time:721
+wordpress post loaded in 633
+Activity Time:634
+wordpress post loaded in 631
+Activity Time:632
+wordpress post loaded in 661
+Activity Time:663
+wordpress post loaded in 697
+Activity Time:700
+wordpress post loaded in 685
+Activity Time:687
+wordpress post loaded in 765
+Activity Time:768
+wordpress post loaded in 716
+Activity Time:718
+wordpress post loaded in 658
+Activity Time:659
+wordpress post loaded in 688
+Activity Time:690
+wordpress post loaded in 671
+Activity Time:672
+wordpress post loaded in 701
+Activity Time:704
+wordpress post loaded in 674
+Activity Time:675
+wordpress post loaded in 693
+Activity Time:694
+wordpress post loaded in 813
+Activity Time:815
+wordpress post loaded in 619
+Activity Time:620
+wordpress post loaded in 845
+Activity Time:848
+wordpress post loaded in 662
+Activity Time:666
+wordpress post loaded in 730
+Activity Time:732
+wordpress post loaded in 815
+Activity Time:817
+wordpress post loaded in 648
+Activity Time:650
+wordpress post loaded in 771
+Activity Time:774
+wordpress post loaded in 920
+Activity Time:921
+wordpress post loaded in 663
+Activity Time:665
