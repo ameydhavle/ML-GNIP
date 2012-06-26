@@ -10,7 +10,3 @@ MarkLogic Connector to wrap GNIP stream
 Usage:
 $	sh twitter-start.sh
 
-Windows
-Seeking volunteer for windows bat file 
-			*** For internal use only ***
-
