@@ -1,0 +1,4 @@
+stream-url 		= https://stream.gnip.com:443/accounts/PG/publishers/tumblr/streams/post/prod.json
+stream-body		= summary
+doc-uri			= tumblr
+
